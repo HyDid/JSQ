@@ -38,7 +38,7 @@
     
     lab.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"wen"]];
     lab.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2-160, 130, 320, 50);
-    lab.textAlignment = UITextAlignmentRight;
+    [lab setTextAlignment:NSTextAlignmentRight];
     self.wenbenkuang = lab;
     [self.view addSubview:lab];
     
